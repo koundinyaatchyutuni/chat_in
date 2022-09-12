@@ -1,0 +1,142 @@
+body{
+    background-color: lightgray;
+    margin:0px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:cadetblue;
+    margin:0px;
+    height: 55px;    
+    
+}
+h1{
+    font-family: myFont;
+    font-size: 50px;
+    margin:0px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    color:whitesmoke;
+    
+}
+.search-box{
+    background: #efefef;
+    margin-right: 10px;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 20px;
+}
+.nav-right{
+    margin-right: 20px;
+    width: 350px;
+    display: flex; 
+    align-items: center;   
+}
+.prof_pic img{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.search_image png{
+   width: 15px;
+}
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0px;
+}
+@font-face {
+    font-family: myFont;
+    src: url(Carista.ttf);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+}
+.left-sider{
+    background-color: antiquewhite;
+    flex-basis: 38%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
+}
+.right-sider{
+    background-color: blanchedalmond;
+    flex-basis: 62%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
+}
+.middle{
+    flex-basis: 1px ;
+}
+.settings-menu{
+    position: absolute;
+    width: 180px;
+    height: 250px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    right: 2px;
+    top: 55px;
+   
+    max-height: 0px;
+    transition: max-height 0.3s;
+}
+.settings-menu-height{
+    max-height: 250px;
+}
+.prof-icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.name{
+    display: flex;
+    height: 30px;
+    margin-top: 0px;
+    
+}
+
+.name1 {
+    padding-left:8px; 
+    font-size:18px;
+    margin-top: 15px;
+    color: black;
+}
+.settings-menu hr{
+    border: 0;
+    height: 1px;
+    background-color: black;
+    margin: 14px 5px;
+}
+.settings-links{
+    display: flex;
+    align-items: center;
+    margin: 14px 5px;
+    margin-left: 8px;
+}
+.settings-links a{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+

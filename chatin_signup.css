@@ -1,0 +1,36 @@
+body{
+    margin-left:500px;
+    background-color: antiquewhite;
+}
+#bor{
+    width: 300px;
+    height: 600px;
+    color: rgb(10, 1, 1);
+    background-color: cadetblue;
+}
+.input-box{
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;    
+}
+button{
+    width: 150px;
+    margin-left: 75px;
+    background-color: aqua;
+}
+h1{
+    font-family: myFont;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    font-size:85px;
+    color: whitesmoke;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Carista.ttf);
+}

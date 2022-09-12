@@ -1,0 +1,21 @@
+body{
+    margin-left:580px;
+    width: 150px;
+    
+    
+}
+button{
+    width: 70px;
+    margin-left: 40px;
+    background-color: aqua;
+    margin-top: 10px;
+}
+.otp{
+  margin-top: 200px;
+  height: 100px;  
+}
+.xyz{
+    font-style: normal;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}

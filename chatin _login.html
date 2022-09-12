@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chartin!</title>
+    <link rel="stylesheet" href="chatin_login.css">
+</head>
+<body>
+    <div class="box">
+        <div class="form-box">
+            <h1>Chat !n</h1>
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Signup</button>
+            </div>
+            <form id="login" class="login-input">
+                <input type="text" class="input-box" placeholder=" Email,Username,Phone number">
+                <input type="password" class="input-box" placeholder="Password">
+                <button type="submit" class="login-btn">Login</button>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </form> 
+            <form id="signup" class="login-input">
+                <input type="text" class="input-box" placeholder=" Email or Phone number">
+                <input type="text" class="input-box" placeholder="Username">
+                <input type="password" class="input-box" placeholder="Password">
+                <input type="password" class="input-box" placeholder=" Confirm Password">
+                <button type="submit" class="login-btn">Signup</button>
+            </form> 
+        </div>
+    </div>
+    <script src="chatin_main.js">
+    </script>
+</body>
+</html>
